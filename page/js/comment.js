@@ -114,7 +114,7 @@ $(document).ready(function() {
 
 $('#post').click(function(){
     if($('#comment').val() != '') {
-        if($('.numStars:checked').val()!=null){       
+        if($('.numStars:checked').val()!==null){       
         if(i%2==0){
             document.querySelector('#logoRefresh').style.transform='rotate(-1000deg)'            
         }else{
