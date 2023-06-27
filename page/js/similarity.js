@@ -88,7 +88,7 @@ location_link.setAttribute("target","_blank")
 //create a new element to display fullscreen
         const body = document.body
         let modal_create = document.createElement("div")
-        modal_create.id = `myModal`
+        modal_create.id = "myModal"
         modal_create.classList.add("modal")
         body.appendChild(modal_create)
 
@@ -101,7 +101,7 @@ location_link.setAttribute("target","_blank")
 
         let modal_img = document.createElement("img")
         modal_img.classList.add("modal-content")
-        modal_img.id = `img01`
+        modal_img.id = "img01"
         modal_create.appendChild(span1)
         modal_create.appendChild(modal_img)
         var modal = document.getElementById("myModal");
