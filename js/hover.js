@@ -3,7 +3,7 @@ var width = screen.width;
 const placeholder = document.querySelector("#search-bar")
 if(width <= 470){
     placeholder.setAttribute("placeholder","search...")
-    console.log(width)
+    
 }
 else{
     placeholder.setAttribute("placeholder","Search for any Restaurant")
