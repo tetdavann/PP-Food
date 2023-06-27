@@ -16,7 +16,7 @@ const seeless4 = document.querySelector("#seeless4").addEventListener("click",se
 const seeless5 = document.querySelector("#seeless5").addEventListener("click",seeLess5)
 const seeless6 = document.querySelector("#seeless6").addEventListener("click",seeLess6)
 const seeless7 = document.querySelector("#seeless7").addEventListener("click",seeLess7)
-console.log(width)
+
 
 function seeAll1(){
     style(1)
